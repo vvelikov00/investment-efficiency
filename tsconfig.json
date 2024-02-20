@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.node.json" }, { "path": "./tsconfig.web.json" }],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "esnext",
+    "moduleResolution": "Bundler"
+  },
+  "exclude": ["node_modules", "dist", "out", "build", "coverage", "test", "tests", "tmp"],
+}

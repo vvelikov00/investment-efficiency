@@ -1,0 +1,10 @@
+{
+  "include": ["electron.vite.config.*", "src/main/**/*", "src/preload/**/*"],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "composite": true,
+    "types": ["electron-vite/node"],
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "dist", "out", "build", "coverage", "test", "tests", "tmp"]
+}
